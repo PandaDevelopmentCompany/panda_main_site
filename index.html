@@ -205,6 +205,25 @@
 			<!-- rd-mailform -->
 			<div class="snackbars" id="form-output-global"></div>
 
+
+
+			<script src="js/jquery-371min.js"></script>
+			<script src="js/jquerymaskedinputmin.js"></script>
+			<script>
+			  $("input[name='phone']").mask("+7(999) 999-9999");
+
+			$(".bezvalue_wrap").html("<input class='bezvalue'  type='text' name='bezvalue' value='' />");	 
+			 $(".bezvalue").val("Dolly Duck");
+			 $(".bezvalue").hide();
+			 
+			 
+			 $('.datatitle').on('click',function(){
+			var mysuperdata = $(this).attr('data-title');
+			$('#titlezagalovor').html(mysuperdata);
+			 
+			});
+			</script>
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>

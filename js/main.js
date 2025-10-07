@@ -91,4 +91,15 @@ if (slider && submitButton) {
     });
 }
 
+// ========================= Капитализация первой буквы =================
+
+function capitalizeFirstLetter(input) {
+    input.value = input.value.split(" ").map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()).join(" ");
+}
+
+['sendName'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.addEventListener('blur', () => capitalizeFirstLetter(el));
+});
+
 })();
