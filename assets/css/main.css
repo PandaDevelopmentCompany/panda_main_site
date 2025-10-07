@@ -2037,3 +2037,9 @@ a.videolink {
 	z-index: 1000 !important;
 	padding-left: 5% !important;
 }
+
+@media screen and (max-width: 768px) {
+#contact form {
+	padding-bottom: 80px !important;
+}
+}
