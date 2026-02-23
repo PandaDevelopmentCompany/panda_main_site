@@ -14,7 +14,7 @@ canvas {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  filter: opacity(80%);
+  filter: opacity(100%);
 } /* ---- stats.js ---- */
 .count-particles {
   background: #000022;

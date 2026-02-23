@@ -6221,3 +6221,56 @@ article#work a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+.p_accent {
+  font-weight: 600;
+}
+
+
+
+
+
+
+.cta-button {
+  padding-left: 0;
+  border: solid 1px #ffffff;
+  text-decoration: none;
+  display: block;
+  line-height: 2.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+  justify-content: center;
+  margin: 0 auto;
+  width: 200px !important;
+  border-radius: 4px;
+}
+.cta-button:hover {
+  border-bottom-color: #fff;
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+
+
+
+/* отключить скролл body при открытых попап окнах */
+body.is-article-visible {
+    overflow: hidden;
+}
+
+
+
+.slider_text {
+  font-weight: 600;
+}
