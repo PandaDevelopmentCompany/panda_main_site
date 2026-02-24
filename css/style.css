@@ -6274,3 +6274,12 @@ body.is-article-visible {
 .slider_text {
   font-weight: 600;
 }
+
+
+
+
+@media screen and (min-width: 768px) {
+  br.only_mobile {
+  display: none !important; 
+}
+}
